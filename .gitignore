@@ -1,0 +1,48 @@
+## .gitignore Configuration
+
+### For Model Development Repo:
+```gitignore
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Experimental notebooks (don't commit these)
+notebooks/experiments/
+notebooks/scratch/
+notebooks/temp_*.ipynb
+notebooks/*_temp.ipynb
+
+# Notebook outputs and large files
+*.ipynb_outputs/
+notebooks/data/
+notebooks/models/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.venv/
+venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (usually too large for git)
+*.csv
+*.parquet
+*.h5
+*.pkl
+data/
+datasets/
+
+# Model artifacts
+*.joblib
+*.pickle
+models/*.pt
+models/*.h5
