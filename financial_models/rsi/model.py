@@ -43,8 +43,4 @@ class RSIModel:
         
         return data
     
-if __name__ == "__main__":
-    model = RSIModel(period=14)
-
-    logger.info("Analyzing stock data")
 
