@@ -4,7 +4,7 @@ RSI (Relative Strength Index) Financial Model
 This module provides RSI analysis functionality for stock market data.
 """
 
-from .model import RSIModel
+from ..model import RSIModel
 
 __version__ = "1.0.0"
 __author__ = "Solomon Shortland"
