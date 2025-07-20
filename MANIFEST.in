@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include financial_models *.py
+recursive-include financial_models *.md
+recursive-include financial_models *.txt
+recursive-exclude financial_models __pycache__
+recursive-exclude financial_models *.pyc
+recursive-exclude financial_models .venv
+recursive-exclude financial_models .ipynb_checkpoints 
