@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import yfinance as yf
-from typing import Optional, Tupe
+from typing import Optional, Tuple
 import logging
 
 logging.basicConfig(level=logging.INFO)
