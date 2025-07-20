@@ -6,7 +6,7 @@ setup(
     description="Financial analytics models including RSI analysis",
     author="Solomon Shortland",
     author_email="solomon.shortland@carbonuw.com",
-    packages=find_packages(),
+    packages=find_packages(['financial_models','financial_models.*', 'financial_models.rsi', 'financial_models.rsi.*', 'financial_models.rsi.model']),
     install_requires=[
         "pandas>=2.0.0",
         "numpy>=1.24.0", 
